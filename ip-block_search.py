@@ -6,17 +6,17 @@ from multiprocessing import Process, Pipe, Queue
 
 
 #Asterisk user Data
-user = 'moppi' ## your User 
-pw = 'moppi' # User PW
+user = '' ## your User 
+pw = '' # User PW
 
 
 #Mysql data
-mysql_user = 'aster' #mysql user
-mysql_pw = 'aster' #Mysql passowrt
+mysql_user = '' #mysql user
+mysql_pw = '' #Mysql passowrt
 mysql_db = 'Asterisk_blocklist' #Mysql database
 mysql_host = 'localhost' #Mysql host
 
-homepath = '/net/html/asterconf/'
+homepath = '/net/html/asterconf/' # Write here your Path 
 
 
 def telnet_runner (tel_in,tel_out,user,pw):#Telnet Runner Process
